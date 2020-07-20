@@ -1,0 +1,32 @@
+@font-face {
+        font-family: 'Permanent Marker';
+        src: url(../Font/PermanentMarker-Regular.ttf)format('truetype');
+}
+
+.topbar {
+        display: flex;
+        background-color: #000000;
+        font-family: "돋움";
+      }
+
+#topbar__logo {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 40px;
+        padding: 7px 0px 0px 30px;
+        text-decoration: none;
+
+        }
+
+.mypage { 
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        text-align: center;
+        padding: 20px;
+        }
+
+.mypage a {
+        text-decoration: none;
+        padding: 10px;
+}
+

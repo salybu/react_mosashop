@@ -1,15 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../CSS/topbar.css"
+import "./TopNavigation.css"
 
 function TopNavigation(){
     return (
         <div className="topbar">
             <Link to="/" id="topbar__logo">mosashop</Link>
-            <Link to=""></Link>
-            <Link to="/logout" className="topbar__mypage">로그아웃</Link>
-            <Link to="/cart" className="topbar__mypage">장바구니</Link>
-            <Link to="/mypage" className="topbar__mypage">주문조회</Link>
+            <div className="mypage">
+                <Link to=""></Link>
+                <Link to="/logout">로그아웃</Link>
+                <Link to="/cart">장바구니</Link>
+                <Link to="/mypage">주문조회</Link>
+            </div>
         </div>
     )
 }
